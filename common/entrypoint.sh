@@ -33,7 +33,7 @@ fi
 
 CMD=( "$@" )
 
-sourceScriptsInFolder "/entrypoint.d"
+sourceScriptsInFolder "/entrypoint.d" "$@"
 
 # Create command
 
